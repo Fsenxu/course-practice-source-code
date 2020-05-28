@@ -1,0 +1,13 @@
+/* pages/about/about.wxss */
+.about-class{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-banner{
+  width: 490rpx;
+  height: 375rpx;
+  border-radius: 50%;
+}

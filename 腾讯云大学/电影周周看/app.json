@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/about/about",
+    "pages/index/index",
+    "pages/weekly/weekly",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "tabBar":{
+    "list":[
+      {
+        
+        "pagePath":"pages/weekly/weekly",
+        "iconPath":"image/icons/iotIcon-unselected.png",
+        "selectedIconPath":"image/icons/iotIcon.png"
+      },
+      {
+        
+        "pagePath":"pages/about/about",
+        "iconPath":"image/icons/user.png",
+        "selectedIconPath":"image/icons/user-selected.png"
+      }
+    ],
+    "color": "515151",
+    "selectedColor": "0fcea0"
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "关于",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
